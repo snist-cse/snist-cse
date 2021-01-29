@@ -1,0 +1,40 @@
+
+.btn{
+    margin-right: 10px;
+}
+.rows{
+    width: 80%;
+    display: flex;
+    position: absolute;
+    margin:20px 20px;
+    box-shadow:  6px 6px 35px 2px grey;
+    border-radius: 20px;
+    transform: translateX(130%);
+    transition: 1.5s;
+}
+
+.table{
+    border-radius: 20px;
+}
+nav{
+    background-image: transparent;
+    height: 60px;
+
+}
+body{
+    height: 800px;
+    background-image: linear-gradient(to top right,rgba(255, 255, 255,1),rgba(169,169,169,0.7));
+}
+.sections{
+    height: 80%;
+    margin: 32px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.btn-sec{
+    display: flex;
+}
+#row1{
+    transform: translateX(0px);
+}
