@@ -1,13 +1,10 @@
-
-.btn{
-    margin-right: 10px;
-}
 .rows{
-    width: 80%;
+    width: 95%;
+    overflow: hidden;
     display: flex;
     position: absolute;
-    margin:20px 20px;
-    box-shadow:  6px 6px 35px 2px grey;
+    margin:1rem 1rem ;
+    box-shadow:  6px 6px 20px  grey;
     border-radius: 20px;
     transform: translateX(130%);
     transition: 1.5s;
@@ -15,26 +12,44 @@
 
 .table{
     border-radius: 20px;
+    overflow: auto;
 }
 nav{
-    background-image: transparent;
+    position: absolute;
+    background-image: black;
     height: 60px;
 
 }
+
 body{
     height: 800px;
     background-image: linear-gradient(to top right,rgba(255, 255, 255,1),rgba(169,169,169,0.7));
 }
+
+.show{
+    margin-bottom: 500px;
+    position: fixed;
+}
+
 .sections{
-    height: 80%;
-    margin: 32px;
-    padding: 20px;
+    height: 100%;
+    margin: 32px 10px;
     position: relative;
     overflow: hidden;
 }
 .btn-sec{
-    display: flex;
+    margin: 1rem;
 }
 #row1{
-    transform: translateX(0px);
+    transform: translateX(0%);
+}
+.btn{
+    margin: 4px;
+}
+.container-fluid{
+    width: 100%;
+}
+
+#navbarSupportedContent{
+    background-image: blue;  
 }
