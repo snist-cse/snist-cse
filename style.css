@@ -31,7 +31,7 @@ body{
     height: 100%;
     margin: 32px 10px;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
 }
 .btn-sec{
     margin: 1rem;
@@ -46,6 +46,4 @@ body{
     width: 100%;
 }
 
-#navbarSupportedContent{
-    background-image: blue;  
-}
+
