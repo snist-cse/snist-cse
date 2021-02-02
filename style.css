@@ -45,7 +45,5 @@ body{
 .container-fluid{
     width: 100%;
 }
-.collapse:not(.show){
-    display: block;
-}
+
 
