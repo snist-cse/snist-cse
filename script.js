@@ -14,11 +14,11 @@ var btn6=document.getElementById("aec");
 
 function openjava(){
     section1.style.transform="translateX(0%)";
-    section2.style.transform="translateX(130%)";
-    section3.style.transform="translateX(130%)";
-    section4.style.transform="translateX(130%)";
-    section5.style.transform="translateX(130%)";
-    section6.style.transform="translateX(130%)";
+    section2.style.transform="translateX(200%)";
+    section3.style.transform="translateX(200%)";
+    section4.style.transform="translateX(200%)";
+    section5.style.transform="translateX(200%)";
+    section6.style.transform="translateX(200%)";
     btn1.classList.remove('btn-light');
     btn1.classList.add('btn-dark');
     btn2.classList.add('btn-light');
@@ -36,10 +36,10 @@ function openjava(){
 function openpython(){
     section1.style.transform="translateX(-110%)";
     section2.style.transform="translateX(0%)";
-    section3.style.transform="translateX(130%)";
-    section4.style.transform="translateX(130%)";
-    section5.style.transform="translateX(130%)";
-    section6.style.transform="translateX(130%)";
+    section3.style.transform="translateX(200%)";
+    section4.style.transform="translateX(200%)";
+    section5.style.transform="translateX(200%)";
+    section6.style.transform="translateX(200%)";
     btn1.classList.add('btn-light');
     btn1.classList.remove('btn-dark');
     btn2.classList.remove('btn-light');
@@ -57,9 +57,9 @@ function opendm(){
     section1.style.transform="translateX(-110%)";
     section2.style.transform="translateX(-110%)";
     section3.style.transform="translateX(0%)";
-    section4.style.transform="translateX(130%)";
-    section5.style.transform="translateX(130%)";
-    section6.style.transform="translateX(130%)";
+    section4.style.transform="translateX(200%)";
+    section5.style.transform="translateX(200%)";
+    section6.style.transform="translateX(200%)";
     btn1.classList.add('btn-light');
     btn1.classList.remove('btn-dark');
     btn2.classList.add('btn-light');
@@ -78,8 +78,8 @@ function openmsfa(){
     section2.style.transform="translateX(-110%)";
     section3.style.transform="translateX(-110%)";
     section4.style.transform="translateX(0%)";
-    section5.style.transform="translateX(130%)";
-    section6.style.transform="translateX(130%)";
+    section5.style.transform="translateX(200%)";
+    section6.style.transform="translateX(200%)";
     btn1.classList.add('btn-light');
     btn1.classList.remove('btn-dark');
     btn2.classList.add('btn-light');
@@ -99,7 +99,7 @@ function openbee(){
     section3.style.transform="translateX(-110%)";
     section4.style.transform="translateX(-110%)";
     section5.style.transform="translateX(0%)";
-    section6.style.transform="translateX(130%)";
+    section6.style.transform="translateX(200%)";
     btn1.classList.add('btn-light');
     btn1.classList.remove('btn-dark');
     btn2.classList.add('btn-light');
