@@ -41,5 +41,24 @@ body{
     margin: 4px;
 }
 
+.card{
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 40px black ;
+}
+.card-title,.card-text{
+    margin: auto;
+    margin-top: 20px;
+}
+.card-btn{
+    margin-top: 24px;
+   
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
